@@ -1,3 +1,4 @@
+from newrelic.agent import initialize
 initialize('./newrelic.ini', 'integration')
 
 from bottle import Bottle, run
